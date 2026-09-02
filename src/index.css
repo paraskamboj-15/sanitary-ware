@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ivory: #f6f3ed;
+  --color-parchment: #efebe1;
+  --color-card: #fbf9f3;
+  --color-ink: #211e19;
+  --color-smoke: #6f675a;
+  --color-line: #dcd5c6;
+  --color-clay: #8a5a3b;
+
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-ink);
+    color: var(--color-ivory);
+  }
+
+  img {
+    background-color: var(--color-parchment);
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.22em] text-smoke;
+  }
+
+  .btn-solid {
+    @apply inline-flex items-center justify-center gap-2.5 bg-ink px-7 py-3.5 text-[12px] font-medium uppercase tracking-[0.14em] text-ivory transition-colors duration-300 hover:bg-[#3a352d];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2.5 border border-ink/70 px-7 py-3.5 text-[12px] font-medium uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:border-ink hover:bg-ink hover:text-ivory;
+  }
+
+  .btn-line {
+    @apply inline-flex items-center gap-2 border-b border-ink pb-1 text-[12px] font-medium uppercase tracking-[0.14em] text-ink transition-colors duration-300 hover:border-clay hover:text-clay;
+  }
+
+  .chip {
+    @apply border border-line bg-transparent px-4 py-2 text-[11px] font-medium uppercase tracking-[0.14em] text-smoke transition-colors duration-200 hover:border-ink hover:text-ink;
+  }
+
+  .chip-active {
+    @apply border-ink bg-ink text-ivory hover:text-ivory;
+  }
+}

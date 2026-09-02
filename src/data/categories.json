@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "bathroom",
+    "name": "Bathroom",
+    "blurb": "Baths, vanities and fittings that anchor the room.",
+    "description": "Freestanding baths, oak vanities and floor-standing fillers — the larger pieces that set the tone of a bathroom. Each one is made to order, pressure-tested and covered by a written warranty.",
+    "image": "/images/cat-bathroom.jpg"
+  },
+  {
+    "slug": "kitchen",
+    "name": "Kitchen",
+    "blurb": "Sinks and mixers for the hardest-working room in the house.",
+    "description": "Fireclay Belfast sinks, quartz-composite bowls and solid-brass mixers, built for heavy daily use. Our kitchen pieces are cycle-tested to twice the industry standard before they leave the line.",
+    "image": "/images/cat-kitchen.jpg"
+  },
+  {
+    "slug": "basins",
+    "name": "Basins",
+    "blurb": "Countertop and wall-hung forms in ceramic and stone.",
+    "description": "Thin-rimmed countertop bowls, wall-hung slabs and vessels carved from solid stone. Every basin is glazed inside and out, fired at 1,220 °C and inspected by hand before it is packed.",
+    "image": "/images/cat-basins.jpg"
+  },
+  {
+    "slug": "toilets",
+    "name": "Toilets",
+    "blurb": "Rimless wall-hung and floor-standing WCs.",
+    "description": "Rimless wall-hung, back-to-wall and close-coupled WCs with quiet 3/4.5 litre dual-flush mechanisms. Soft-close, quick-release seats are standard across the range.",
+    "image": "/images/cat-toilets.jpg"
+  },
+  {
+    "slug": "faucets",
+    "name": "Faucets",
+    "blurb": "Single-lever mixers and spouts in solid brass.",
+    "description": "Single-lever mixers, tall vessels and wall-mounted spouts cast in CW617N brass, fitted with ceramic disc cartridges rated for 500,000 cycles. Finished in chrome, brushed nickel or brushed brass.",
+    "image": "/images/cat-faucets.jpg"
+  },
+  {
+    "slug": "showers",
+    "name": "Showers",
+    "blurb": "Rain heads, columns and hand showers.",
+    "description": "Ceiling-mounted rain heads, thermostatic columns and hand shower sets, engineered for an even, generous spray at Indian water pressures. Rub-clean nozzles throughout.",
+    "image": "/images/cat-showers.jpg"
+  }
+]
